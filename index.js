@@ -40,7 +40,7 @@ async function run() {
         const count = await productCollection.estimatedDocumentCount();
         res.send({count});
     })
-  } finally {
+  } finally {//
   }
 }
 run().catch(console.dir);
